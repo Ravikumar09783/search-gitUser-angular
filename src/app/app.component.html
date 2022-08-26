@@ -1,0 +1,15 @@
+<div style="text-align: center;">
+
+<h1>RxJs Taking Data From Github API's.</h1>
+<input type="text"
+#search
+>
+</div>
+<div *ngFor="let users of user" >
+  <ul style="align-items:center ;">
+    <li style="list-style: none; color: white; font-size:18px; "><img src="{{users.avatar_url}}" alt="" style="width: 50px; border-radius:50%;">{{users.login}}</li>
+  </ul>
+
+
+</div>
+<!-- <router-outlet></router-outlet> -->
